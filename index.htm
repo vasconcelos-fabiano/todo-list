@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
+
+    <link rel="stylesheet" type="text/css" href="todolist.css" />
 </head>
 <body>
-    Funciona!
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+
+      <ul id="myUL">
+        <li>Mandar o sofá pro conserto</li>
+        <li class="checked">Comprar tomate</li>
+        <li>Encontrar com a Jane</li>
+        <li>Ligar para o colégio dos meninos</li>
+        <li>Marcar a consulta no dentista</li>
+        <li>Estudar CSS</li>
+      </ul>
+
+      <script src="todolist.js"></script>
 </body>
 </html>
